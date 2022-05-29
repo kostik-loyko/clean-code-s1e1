@@ -4,26 +4,26 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
-.header-image {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.header-image .image-matrix {
+.header .header__matrix {
   width: 100%;
 }
-.header-image .more-inf {
+.header .header__inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-  .header-image { text-align: center;
+  .header { text-align: center;
   }
 
 }
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -33,7 +33,7 @@
   display: inline-block;
   flex-grow: 1
 }
-.task-row-wrapper {
+.create-tasks__task-row-wrapper {
   display: flex;
 }
 ul {
@@ -61,7 +61,7 @@ input, button{
 }
 /* Heading */
 .title,
-.new-label {
+.main__new-label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -87,7 +87,7 @@ input, button{
 }
 
 /* New Task */
-.new-label {
+.main__new-label {
   display: block;
   margin: 0 0 20px;
 }
@@ -131,7 +131,7 @@ input, button{
 }
 
 /* Completed */
-#completed-tasks .label-task {
+.completed-tasks .label-task {
   text-decoration: line-through;
   color: #888;
 }
